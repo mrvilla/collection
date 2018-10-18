@@ -1,0 +1,17 @@
+---
+title: Prototype
+type: page
+contextData: index
+---
+
+{{#extend "lyt-default"}}
+	{{#content "main"}}
+
+		{{#with section.search}}
+			{{#deepMerge (lookup @root.search.variations content.search.variationName) with=content.search}}
+				{{> search}}
+			{{/deepMerge}}
+		{{/with}}
+
+	{{/content}}
+{{/extend}}

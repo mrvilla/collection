@@ -1,0 +1,35 @@
+{
+  "@veams/generator-veams": {
+    "projectName": "collection",
+    "projectType": "static-page-app",
+    "taskRunner": "webpack",
+    "templateEngine": "ssr-mangony-hbs",
+    "server": [
+      "serverFakeData"
+    ],
+    "gruntModules": [],
+    "features": [],
+    "jsLibs": [
+      "handlebars"
+    ],
+    "cssLibs": [
+      "include-media"
+    ],
+    "testAndQA": false,
+    "testAndQALibs": [],
+    "veamsPackages": true,
+    "docs": [],
+    "icons": [
+      "webfont"
+    ],
+    "images": [
+      "imgResponsive",
+      "imgSizeExport",
+      "imgLazyLoad"
+    ],
+    "cssPostProcessors": [
+      "autoprefixer",
+      "cssNext"
+    ]
+  }
+}

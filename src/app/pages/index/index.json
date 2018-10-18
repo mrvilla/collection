@@ -1,0 +1,18 @@
+{
+	"section": {
+		"search": {
+			"content": {
+				"search": {
+					"variationName": "default"
+				}
+			}
+		},
+		"searchResults": {
+			"content": {
+				"searchResults": {
+					"variationName": "default"
+				}
+			}
+		}
+	}
+}

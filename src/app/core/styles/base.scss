@@ -1,0 +1,57 @@
+/* ===================================================
+BASE
+=================================================== */
+
+/* ---------------------------------------------------
+Global styles
+--------------------------------------------------- */
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font: normal 16px/1.2 Agrandir, sans-serif;
+
+	line-height: 1.4;
+
+	/* Adjust font size */
+	-webkit-text-size-adjust: 100%;
+
+	/* Font variant */
+	font-variant-ligatures: none;
+	-webkit-font-variant-ligatures: none;
+
+	/* Smoothing */
+	text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+img {
+	max-width: 100%;
+}
+
+// styling of console output element (triggered by parameter 'devmode' and 'logger' in url)
+#js-logger {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	color: #fff;
+	height: calc(100% / 6);
+	background-color: rgba(0, 0, 0, .9);
+	padding: 20px;
+	font-size: 14px;
+	overflow-y: auto;
+	z-index: 9999;
+	border-radius: 10px;
+	border: 10px solid red;
+}
