@@ -1,0 +1,20 @@
+
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Default"
+			},
+			"settings": {
+				"searchContextClass": "default",
+				"searchClasses": false,
+				"searchJsOptions": {}
+			},
+			"content": {
+				"searchIcon": "is-font-icon-noun_Search_1279709_000000",
+				"placeholderText": "Search favorite film",
+				"submitText": "Search"
+			}
+		}
+	}
+}

@@ -1,0 +1,143 @@
+/* ===================================================
+component: search
+=================================================== */
+
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-search"] {
+	.search__form {
+		display: flex;
+		position: relative;
+	}
+
+	&.is-color-grey {
+		.search__input {
+			background-color: grey;
+		}
+	}
+
+	.search__box {
+		display: flex;
+		flex: 1;
+		border-top: .3rem solid lightgray;
+	}
+
+	.search__label {
+		position: absolute;
+		display: flex;
+		min-width: 6.6rem;
+		height: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.search__icon {
+		transform: scale(1.53);
+	}
+
+	.search__input {
+		font-size: 3rem;
+		display: flex;
+		width: 100%;
+		padding: 2.2rem 2.2rem 2.2rem 6.6rem;
+		color: grey;
+		border: none;
+		outline: .3rem solid lightgray;
+
+		&:focus {
+			outline: .3rem solid lightgray;
+			background-color: lightgray;
+
+			&::placeholder {
+				color: lighten(white, 27%);
+			}
+		}
+	}
+
+	.search__submit {
+		font-size: 3rem;
+		position: absolute;
+		min-width: 15%;
+		height: 97%;
+		top: .3rem;
+		padding: 0 1rem;
+		border: none;
+		right: 0;
+		background-color: lightgray;
+		color: black;
+	}
+	.search__album-container,
+	.search__book-container,
+	.search__film-container {
+		display: flex;
+		position: relative;
+		border-bottom: .3rem solid black;
+		border-top: .3rem solid black;
+	}
+
+	.search__book-container {
+		border-bottom: 0;
+		border-top: 0;
+	}
+
+	.search__info {
+		padding: 0 20rem 0 1.5rem;
+	}
+
+	.search__img-wrapper {
+		max-width: 13rem;
+	}
+
+	.search__title {
+		font-size: 2rem;
+		font-weight: 700;
+	}
+
+	.search__row {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: black;
+		color: white;
+
+		&::after {
+			content: '';
+			width: 3rem;
+			position: relative;
+		}
+	}
+
+	.search__row-text {
+		letter-spacing: 2px;
+		transform: rotate(-90deg);
+		position: absolute;
+	}
+
+	.search__rated,
+	.search__run-time,
+	.search__year {
+		font-size: 1rem;
+		font-weight: 300;
+	}
+
+	.search__rated {
+		padding: .5rem .4rem .3rem;
+		margin-left: .5rem;
+		position: relative;
+		display: initial;
+		background-color: black;
+		color: white;
+	}
+
+	.search__plot {
+		color: grey;
+	}
+}
+
+/* ---------------------------------------------------
+Context: Default
+--------------------------------------------------- */
+.c-search--default {
+}

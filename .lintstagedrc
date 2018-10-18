@@ -1,0 +1,12 @@
+{
+	"src/app/**/*.js": [
+		"eslint --fix --config configs/tasks/linting/eslintrc.js",
+		"git add"
+	],
+	"src/**/*.scss": [
+		"stylelint --fix --config configs/tasks/linting/stylelint.config.js",
+		"git add"
+	],
+	"*.md": ["prettier --parser markdown --write", "git add"],
+	"*.json": ["prettier --parser json --write", "git add"]
+}
