@@ -255,6 +255,11 @@
     "@veams/component" "^1.2.3"
     "@veams/query" "^2.2.24"
 
+"@veams/component-toggler@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@veams/component-toggler/-/component-toggler-1.0.1.tgz#36dfb5f8bae0cd4116e8ddacd96857d17cc72db4"
+  integrity sha1-Nt+1+LrgzUEW6N2s2WhX0XzHLbQ=
+
 "@veams/component@^1.2.3":
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/@veams/component/-/component-1.2.5.tgz#439c95f43fefdcb2841067844840e6ac2db0b670"

@@ -4,10 +4,13 @@ Be sure you use collections to categorize your sitemap.
 If you do not want to use collections, just delete this `sitemap` partial
 --- }}
 
-<nav class="c-sitemap--default" data-css="c-sitemap">
-	<!--<h2 class="sitemap__header">Sitemap</h2>-->
+<div class="c-sitemap--default" data-css="c-sitemap">
+	<div class="sitemap__header">
+		<img src="" class="sitemap__logo" alt="logo">
+
+	</div>
 	{{#each collections.type}}
-		<div class="sitemap__overview">
+		<nav class="sitemap__list">
 			<h3 class="sitemap__headline">{{uppercase name}}S</h3>
 			<ol class="sitemap__list">
 				{{#each ../pages}}
@@ -26,6 +29,6 @@ If you do not want to use collections, just delete this `sitemap` partial
 					{{/is}}
 				{{/each}}
 			</ol>
-		</div>
+		</nav>
 	{{/each}}
-</nav>
+</div>

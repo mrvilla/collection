@@ -47,6 +47,7 @@
 	"devDependencies": {
 		"@veams/bp-mock-api": "^1.0.3",
 		"@veams/component-cta": "^1.0.2",
+		"@veams/component-toggler": "^1.0.1",
 		"babel-core": "^6.26.0",
 		"babel-eslint": "^8.2.6",
 		"babel-loader": "^7.1.2",

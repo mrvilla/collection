@@ -6,7 +6,14 @@ Component: Sitemap
 Global Styles
 --------------------------------------------------- */
 [data-css="c-sitemap"] {
+	.sitemap__header {
+		padding: 2.2rem 2rem;
+		background-color: darken(#23241F, 5);
+	}
 
+	.sitemap__list {
+		padding: 2.2rem 2rem;
+	}
 }
 
 /* ---------------------------------------------------

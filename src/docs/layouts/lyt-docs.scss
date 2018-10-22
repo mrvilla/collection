@@ -23,9 +23,13 @@ General styles
 	Sidebar
 	----------------------- */
 	.docs__sidebar {
-		width: 15%;
-		background-color: #23241f;
-		color: #fff;
+		display: none;
+		left: -16em;
+		position: absolute;
+		top: 0;
+		transform: translateZ(0);
+		background-color: #23241F;
+		color: #FFF;
 		z-index: 1;
 
 		h3 {
@@ -33,40 +37,30 @@ General styles
 		}
 
 		a {
-			color: lighten(#4a9ea3, 10);
+			color: lighten(#4A9EA3, 10);
 			text-decoration: none;
 
 			&:hover {
-				color: lighten(#4a9ea3, 30);
+				color: lighten(#4A9EA3, 30);
 			}
 		}
 
-		@include media('<large') {
-			display: none;
-			left: -16em;
-			position: absolute;
-			top: 0;
-			transform: translateZ(0);
+		@include media('>=large') {
+			display: block;
+			position: relative;
+			width: 22%;
+			left: 0;
 		}
-	}
-
-	.docs__sidebar-header {
-		padding: 2.2rem 2rem;
-		background-color: darken(#23241f, 5);
-	}
-
-	.docs__sidebar-list {
-		padding: 2.2rem 2rem;;
 	}
 
 	/*
 	Main
 	----------------------- */
 	.docs__main {
-		width: 85%;
+		width: 100%;
 
-		@include media('<large') {
-			width: 100%;
+		@include media('>=large') {
+			width: 78%;
 		}
 	}
 
@@ -81,12 +75,12 @@ General styles
 
 		span {
 			font-size: 2rem;
-			color: lighten(#4a9ea3, 1);
+			color: lighten(#4A9EA3, 1);
 		}
 	}
 
 	.docs__subline {
-		color: darken(#ddd, 35);
+		color: darken(#DDD, 35);
 		margin-top: 0;
 		margin-left: .5rem;
 		font-size: 1.6rem;
@@ -102,14 +96,14 @@ General styles
 	.docs__section {
 		width: 100%;
 		padding: 2rem;
-		border-bottom: 1px solid rgba(#4a9ea3, .7);
-		border-top: 2px solid #fff;
-		background-color: darken(#fff, 4);
+		border-bottom: 1px solid rgba(#4A9EA3, .7);
+		border-top: 2px solid #FFF;
+		background-color: darken(#FFF, 4);
 
 		&.is-bg-invert {
-			background-color: rgba(#4a9ea3, .3);
-			border-top: 1px solid #fff;
-			border-bottom: 1px solid darken(#fff, 20);
+			background-color: rgba(#4A9EA3, .3);
+			border-top: 1px solid #FFF;
+			border-bottom: 1px solid darken(#FFF, 20);
 
 			.docs__section-headline {
 				color: #000;
@@ -124,7 +118,7 @@ General styles
 		min-width: 150px;
 		opacity: 1;
 		background-color: transparent;
-		color: darken(#ddd, 35);
+		color: darken(#DDD, 35);
 		text-align: left;
 		text-transform: uppercase;
 		margin-bottom: 4rem;
@@ -137,8 +131,8 @@ General styles
 			margin: 3rem 0 5rem;
 			border-width: 1px;
 			background-color: transparent;
-			border-top: 1px solid darken(#ddd, 20);
-			border-bottom: 2px solid darken(#ddd, 2);
+			border-top: 1px solid darken(#DDD, 20);
+			border-bottom: 2px solid darken(#DDD, 2);
 			border-right: none 0;
 			border-left: none 0;
 		}
@@ -172,7 +166,7 @@ General styles
 		text-align: left;
 		margin-bottom: 3rem;
 		font-style: italic;
-		color: darken(#ddd, 35);
+		color: darken(#DDD, 35);
 		padding-bottom: .5rem;
 
 	}
@@ -224,12 +218,12 @@ General styles
 		blockquote {
 			padding: .5rem 1rem;
 			margin: 2rem 0;
-			color: #3e4348;
-			background-color: #fff;
-			border-left: .5rem solid #4a9ea3;
+			color: #3E4348;
+			background-color: #FFF;
+			border-left: .5rem solid #4A9EA3;
 
 			code {
-				background-color: #4a9ea3;
+				background-color: #4A9EA3;
 			}
 		}
 
@@ -242,7 +236,7 @@ General styles
 			background: #242420;
 			font-size: 100%;
 			word-wrap: normal;
-			color: lighten(#e7db74, 15);
+			color: lighten(#E7DB74, 15);
 			overflow-x: auto;
 		}
 
@@ -250,7 +244,7 @@ General styles
 			margin-bottom: 4rem;
 			background: rgb(35, 36, 31);
 			padding: .8rem;
-			color: #e7db74;
+			color: #E7DB74;
 
 			code {
 				max-height: 350px;
@@ -280,10 +274,10 @@ General styles
 		}
 
 		a {
-			color: #4a9ea3;
+			color: #4A9EA3;
 
 			&:visited {
-				color: #4a9ea3;
+				color: #4A9EA3;
 			}
 		}
 
@@ -291,8 +285,8 @@ General styles
 			margin: 3rem 0;
 			border-width: 1px;
 			background-color: transparent;
-			border-top: 1px solid darken(#fff, 20);
-			border-bottom: 2px solid #fff;
+			border-top: 1px solid darken(#FFF, 20);
+			border-bottom: 2px solid #FFF;
 			border-right: none 0;
 			border-left: none 0;
 		}
@@ -313,8 +307,8 @@ General styles
 
 		tr {
 			background-color: rgb(35, 36, 31);
-			border-top: 1px solid #3a3a3a;
-			color: #f8f8f2;
+			border-top: 1px solid #3A3A3A;
+			color: #F8F8F2;
 
 			&:nth-child(2n) {
 				background-color: rgba(35, 36, 31, .9);
@@ -323,7 +317,7 @@ General styles
 			th,
 			td {
 				padding: .7rem 1rem;
-				border: 1px solid #4e4e4e;
+				border: 1px solid #4E4E4E;
 			}
 
 			th {
@@ -337,7 +331,7 @@ General styles
 
 		td {
 			code {
-				color: #e7db74;
+				color: #E7DB74;
 			}
 		}
 	}

@@ -11,7 +11,7 @@
 // Imports
 import $ from '@veams/query';
 import Component from '@veams/component';
-import {fetchApi} from "../../../data/externtalData";
+import { fetchApi } from '../../../data/externtalData';
 
 class Search extends Component {
 	/**
@@ -31,7 +31,7 @@ class Search extends Component {
 	// Local Handlers
 	get events() {
 		return {
-			'submit': 'handleClick',
+			submit: 'handleClick'
 		};
 	}
 
@@ -73,13 +73,24 @@ class Search extends Component {
 		console.log('albumData: ', albumData);
 		this.renderSearchAlbumTemplate(
 			albumData.results[1].title,
-			albumData.results[1].cover_image,
+			albumData.results[1].cover_image
 			//albumData.results[0].artist,
 		);
 		console.log('comicData: ', comicData);
 	}
 
-	renderSearchFilmTemplate(image, title, rated, genre, runTime, plot, director, writer, actor, year) {
+	renderSearchFilmTemplate(
+		image,
+		title,
+		rated,
+		genre,
+		runTime,
+		plot,
+		director,
+		writer,
+		actor,
+		year
+	) {
 		//console.log('Filmtitle: ', `${title}`);
 		//console.log('Filmimage: ', `${image}`);
 		const filmTemplate = ` 
@@ -87,16 +98,23 @@ class Search extends Component {
 			     <div class="search__row"><div class="search__row-text">film</div></div>
 				 <div class="search__img-wrapper"><img src="${image}" alt=""></div>
 				 <div class="search__info">
-					<div class="search__title">
-						${title} <div class="search__rated">${rated}</div>
+					<div class="search__title-rated-year">
+						<div class="search__title">${title} </div>
+						<div class="search__rated">${rated}</div>
+						<div class="search__year">${year}</div>
 					</div>
 					<div class="search__genre">${genre}</div>
 					<div class="search__run-time">${runTime}</div>
 					<div class="search__plot">${plot}</div>
-					<div class="search__director">${director}</div>
-					<div class="search__writer">${writer}</div>
-					<div class="search__actor">${actor}</div>
-					<div class="search__year">${year}</div>
+					<div class="search__director">
+						<span class="search__text">Director:</span> ${director}
+					</div>
+					<div class="search__writer"> 
+						<span class="search__text">Writer:</span> ${writer}
+					</div>
+					<div class="search__actor">
+						<span class="search__text">Actor:</span> ${actor}
+					</div>
 				 </div>
 			</div>
          `;
@@ -112,13 +130,16 @@ class Search extends Component {
 				 <div class="search__row"><div class="search__row-text">book</div></div>
 				 <div class="search__img-wrapper"><img src="${image}" alt=""></div>
 				 <div class="search__info">
-					<div class="search__title">
-						${title} <div class="search__rated">${rated}</div>
+					<div class="search__title-rated-year">
+						<div class="search__title">${title}</div>
+						<div class="search__rated">${rated}</div>
+						<div class="search__year">${year}</div>
 					</div>
-					<div class="search__author">${author}</div>
 					<div class="search__categories">${categories}</div>
-					<div class="search__pages">${pages}</div>
-					<div class="search__year">${year}</div>
+					<div class="search__pages">${pages} pages</div>
+					<div class="search__author">
+						<span class="search__text">Author:</span> ${author}
+					</div>
 				 </div>
 			</div>
          `;
@@ -142,7 +163,6 @@ class Search extends Component {
 
 		this.$searchAlbumResults.html(albumTemplate);
 	}
-
 
 	/**
 	 * Constructor for our class
