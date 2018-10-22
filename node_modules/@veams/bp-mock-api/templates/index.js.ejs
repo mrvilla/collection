@@ -1,0 +1,63 @@
+import { Router } from 'express'
+import { create, index, show, update, destroy } from './controller'
+export <%= bpJsName %>, { schema } from './model'
+
+/** 
+ * Create new router element
+ */
+const router = new Router();
+<% if (props.apiMethods.indexOf('read') !== -1) { %>
+/**
+ * @api {get} /api/<%= bpName %> Retrieve <%= bpName %>s
+ * @apiName Retrieve<%= bpJsName %>s
+ * @apiGroup <%= bpJsName %>
+ * @apiUse listParams
+ * @apiSuccess {Object[]} contents List of contents.
+ * @apiError {Object} 422 Some parameters may contain invalid values.
+ */
+router.get('/', index);
+
+/**
+ * @api {get} /api/<%= bpName %>/:id Retrieve content
+ * @apiName Retrieve<%= bpJsName %>
+ * @apiGroup <%= bpJsName %>
+ * @apiSuccess {Object} content <%= bpJsName %>'s data.
+ * @apiError {Object} 422 Some parameters may contain invalid values.
+ * @apiError 404 <%= bpJsName %> not found.
+ */
+router.get('/:id', show);
+<% } %><% if (props.apiMethods.indexOf('create') !== -1) { %>
+/**
+ * @api {post} /api/<%= bpName %> Create <%= bpName %>
+ * @apiName Create<%= bpJsName %>
+ * @apiGroup <%= bpJsName %>
+ * @apiParam id <%= bpJsName %> ID
+ * @apiParam project_id Project's ID
+ * @apiParam lang <%= bpJsName %> language
+ * @apiParam status content status (published|preview|master)
+ * @apiSuccess {Object} content <%= bpJsName %>'s data.
+ * @apiError {Object} 422 Some parameters may contain invalid values.
+ * @apiError 404 <%= bpJsName %> not found.
+ */
+router.post('/', create);
+<% } %><% if (props.apiMethods.indexOf('update') !== -1) { %>
+/**
+ * @api {put} /api/<%= bpName %>/:id Update content
+ * @apiName Update<%= bpJsName %>
+ * @apiGroup <%= bpJsName %>
+ * @apiSuccess {Object} content <%= bpJsName %>'s data.
+ * @apiError {Object} 422 Some parameters may contain invalid values.
+ * @apiError 404 <%= bpJsName %> not found.
+ */
+router.put('/:id', update);
+<% } %><% if (props.apiMethods.indexOf('delete') !== -1) { %>
+/**
+ * @api {delete} /api/<%= bpName %>/:id Delete content
+ * @apiName Delete<%= bpJsName %>
+ * @apiGroup <%= bpJsName %>
+ * @apiSuccess (Success 204) 204 No <%= bpJsName %>.
+ * @apiError 404 <%= bpJsName %> not found.
+ */
+router.delete('/:id', destroy);
+<% } %>
+export default router;
