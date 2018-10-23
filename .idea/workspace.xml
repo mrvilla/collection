@@ -2,135 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2919bdea-b8f6-4fa8-a341-522ee0c3c29c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/iconfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/app.bundle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/docs.bundle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/app.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/app.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/docs.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/docs.bundle.js.map" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.lintstagedrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.nvmrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/_webpack/plugins/scripts.plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/_webpack/plugins/styles.plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/_webpack/rules/scripting.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/_webpack/rules/styling.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/_webpack/webpack.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/faker/faker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/faker/presets/example.preset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/icons/templates/webfont-scss.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/icons/webfont.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/icons/webfont.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/images/images-export.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/images/images-resizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/images/images.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/images/presets/default-preset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/linting/eslintrc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/linting/stylelint.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/mangony/mangony-build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/mangony/mangony.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/nodemon.config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configs/tasks/scss-parse/scss-parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/environment.dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/environment.local.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/environment.production.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/environment.qa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/setup.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/app.events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/app.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/app.veams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/assets/fonts/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/assets/fonts/iconfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/assets/icons/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/assets/media/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/core/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/core/components/_metadata.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/core/components/_scripts.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/core/components/_styles.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/core/layouts/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/core/layouts/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/core/layouts/lyt-default.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/core/layouts/styles/lyt-defaults.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/core/store/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/core/styles/_print.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/core/styles/base.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/pages/index/index.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/pages/index/index.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/INSERTPOINTS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/cta-usage.settings.hjson" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/data/cta.hjson" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/scripts/cta.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/styles/_cta.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/templates/cta-usage.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/templates/cta.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/cta/templates/cta__content.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/search/INSERTPOINTS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/search/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/search/data/search.hjson" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/search/scripts/search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/search/search.settings.hjson" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/search/styles/search.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/search/templates/search.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/sitemap/sitemap.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/sitemap/sitemap.settings.hjson" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/components/sitemap/styles/_sitemap.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/data/externtalData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/scripts/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/styles/_shared.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/styles/global/_fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/styles/global/_vars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/styles/helpers/_helpers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/styles/helpers/functions/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/styles/icons/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/styles/icons/webfont.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/utilities/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/utilities/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/shared/utilities/template-helpers/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/layouts/_highlight.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/layouts/_monokai.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/layouts/lyt-docs-default.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/layouts/lyt-docs.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/layouts/lyt-docs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/scripts/docs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/style-guide/docs/docs.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/api/example/controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/api/example/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/api/example/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/api/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/configs/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/content/home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/content/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/content/server-hosts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/mocks/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/models/api-model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/modules/express.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/modules/reload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/services/response/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/utils/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/veams-cli.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/assets/fonts/agrandir/AgrandirVariable.ttf" afterPath="$PROJECT_DIR$/fonts/agrandir/AgrandirVariable.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/assets/fonts/iconfont.eot" afterPath="$PROJECT_DIR$/fonts/iconfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/assets/fonts/iconfont.svg" afterPath="$PROJECT_DIR$/fonts/iconfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/assets/fonts/iconfont.ttf" afterPath="$PROJECT_DIR$/fonts/iconfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/assets/fonts/iconfont.woff" afterPath="$PROJECT_DIR$/fonts/iconfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/assets/icons/svg/noun_Search_1279709_000000.svg" afterPath="$PROJECT_DIR$/icons/svg/noun_Search_1279709_000000.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/assets/img/favicon.ico" afterPath="$PROJECT_DIR$/img/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -151,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            <state relative-caret-position="612">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -248,6 +121,7 @@
         <option value="$PROJECT_DIR$/configs/tasks/_webpack/webpack.common.js" />
         <option value="$PROJECT_DIR$/configs/tasks/mangony/mangony.config.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -258,10 +132,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3361" />
-    <option name="y" value="22" />
-    <option name="width" value="1275" />
-    <option name="height" value="810" />
+    <option name="x" value="175" />
+    <option name="y" value="77" />
+    <option name="width" value="1447" />
+    <option name="height" value="906" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -279,8 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,6 +167,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,10 +335,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107377000" />
+    <option name="totallyTimeSpent" value="107508000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3361" y="22" width="1275" height="810" extended-state="0" />
+    <frame x="175" y="77" width="1447" height="906" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -472,22 +347,35 @@
       <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16139497" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12953737" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28412256" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3559322" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16139497" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,76 +391,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/shared/components/cta/cta-usage.settings.hjson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/components/sitemap/sitemap.settings.hjson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/core/layouts/styles/lyt-defaults.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/core/layouts/lyt-default.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docs/layouts/lyt-docs-default.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docs/style-guide/docs/docs.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docs/layouts/lyt-docs.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docs/layouts/lyt-docs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/components/search/search.settings.hjson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/components/cta/data/cta.hjson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/components/cta/cta-usage.settings.hjson" />
+    <entry file="file://$PROJECT_DIR$/src/app/shared/components/sitemap/sitemap.settings.hjson" />
+    <entry file="file://$PROJECT_DIR$/src/app/core/layouts/styles/lyt-defaults.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/core/layouts/lyt-default.hbs" />
+    <entry file="file://$PROJECT_DIR$/src/docs/layouts/lyt-docs-default.hbs" />
+    <entry file="file://$PROJECT_DIR$/src/docs/style-guide/docs/docs.hbs" />
+    <entry file="file://$PROJECT_DIR$/src/docs/layouts/lyt-docs.hbs" />
+    <entry file="file://$PROJECT_DIR$/src/docs/layouts/lyt-docs.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/shared/components/search/search.settings.hjson" />
+    <entry file="file://$PROJECT_DIR$/src/app/shared/components/cta/data/cta.hjson" />
     <entry file="file://$PROJECT_DIR$/node_modules/@veams/core/scss/layout/_pseudo.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -580,13 +408,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/styles/icons/webfont.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/styles/icons/webfont.scss" />
     <entry file="file://$PROJECT_DIR$/node_modules/@veams/query/lib/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -595,259 +417,44 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/shared/components/search-results/search-results.settings.hjson" />
-    <entry file="file://$PROJECT_DIR$/src/app/pages/index/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/index/index.json" />
     <entry file="file://$PROJECT_DIR$/src/app/shared/components/search-results/scripts/search-results.js" />
-    <entry file="file://$PROJECT_DIR$/src/app/core/styles/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/core/styles/base.scss" />
     <entry file="file://$PROJECT_DIR$/src/app/shared/components/search-results/templates/search-results.hbs" />
     <entry file="file://$PROJECT_DIR$/src/app/shared/components/search-results/data/search-results.hjson" />
-    <entry file="file://$PROJECT_DIR$/src/app/shared/components/search/data/search.hjson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/styles/global/_vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/components/cta/scripts/cta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2272">
-          <caret line="167" column="42" lean-forward="false" selection-start-line="167" selection-start-column="42" selection-end-line="167" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/pages/index/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/tasks/images/images-export.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/content/server-hosts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/modules/express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/modules/reload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/components/search/styles/search.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/components/search/templates/search.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/tasks/nodemon.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/tasks/linting/stylelint.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="118" column="1" lean-forward="false" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/tasks/linting/eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.lintstagedrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/data/externtalData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/components/search/scripts/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="73" column="39" lean-forward="false" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.veams.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/environments/environment.production.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/tasks/_webpack/webpack.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/tasks/mangony/mangony-build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/tasks/mangony/mangony.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/veams-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/components/search/data/search.hjson" />
+    <entry file="file://$PROJECT_DIR$/src/app/shared/styles/global/_vars.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/shared/components/cta/scripts/cta.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/pages/index/index.hbs" />
+    <entry file="file://$PROJECT_DIR$/src/app/app.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/app.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/app.events.js" />
+    <entry file="file://$PROJECT_DIR$/configs/tasks/images/images-export.js" />
+    <entry file="file://$PROJECT_DIR$/src/server/content/server-hosts.js" />
+    <entry file="file://$PROJECT_DIR$/src/server/modules/express.js" />
+    <entry file="file://$PROJECT_DIR$/src/server/modules/reload.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/shared/components/search/styles/search.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/shared/components/search/templates/search.hbs" />
+    <entry file="file://$PROJECT_DIR$/configs/tasks/nodemon.config.json" />
+    <entry file="file://$PROJECT_DIR$/configs/tasks/linting/stylelint.config.js" />
+    <entry file="file://$PROJECT_DIR$/configs/tasks/linting/eslintrc.js" />
+    <entry file="file://$PROJECT_DIR$/.lintstagedrc" />
+    <entry file="file://$PROJECT_DIR$/src/app/shared/data/externtalData.js" />
+    <entry file="file://$PROJECT_DIR$/docs/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/app/shared/components/search/scripts/search.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/app.veams.js" />
+    <entry file="file://$PROJECT_DIR$/setup.json" />
+    <entry file="file://$PROJECT_DIR$/environments/environment.production.js" />
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/configs/tasks/_webpack/webpack.common.js" />
+    <entry file="file://$PROJECT_DIR$/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/configs/tasks/mangony/mangony-build.js" />
+    <entry file="file://$PROJECT_DIR$/configs/tasks/mangony/mangony.config.js" />
+    <entry file="file://$PROJECT_DIR$/veams-cli.json" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,6 +462,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>

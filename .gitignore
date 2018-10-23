@@ -1,65 +1,8 @@
-# see https://github.com/github/gitignore/blob/master/Maven.gitignore
-.mvn/timing.properties
-buildNumber.properties
-dependency-reduced-pom.xml
-pom.xml.next
-pom.xml.releaseBackup
-pom.xml.tag
-pom.xml.versionsBackup
-release.properties
-target/
-
-# see https://github.com/github/gitignore/blob/master/Java.gitignore
-*.class
-*.ctxt
-*.ear
-*.jar
-*.log
-*.rar
-*.tar.gz
-*.war
-*.zip
-.mtj.tmp/
-hs_err_pid*
-
 # see https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
 *.iml
 *.ipr
 *.iws
 .idea/
-
-# see https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
-*.launch
-*.swp
-*.tmp
-*~.nib
-.externalToolBuilders/
-.factorypath
-.loadpath
-.metadata
-.recommenders
-.settings/
-.springBeans
-.target
-bin/
-local.properties
-tmp/
-.classpath
-.project
-
-# see https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
-$RECYCLE.BIN/
-*.bak
-*.cab
-*.lnk
-*.msi
-*.msm
-*.msp
-*.stackdump
-Thumbs.db
-[Dd]esktop.ini
-ehthumbs.db
-ehthumbs_vista.db
 
 # see https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
 .AppleDB
@@ -94,3 +37,5 @@ rebel.xml
 
 # Frontend
 */node_modules
+node_modules
+app
