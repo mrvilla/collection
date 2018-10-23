@@ -1,0 +1,599 @@
+/* ===================================================
+Documentation Styles
+=================================================== */
+/* ---------------------------------------------------
+Global Imports
+--------------------------------------------------- */
+/*
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+*/
+.hljs {
+  display: block;
+  padding: .5em;
+  background: #f0f0f0; }
+
+.hljs,
+.hljs-subst,
+.hljs-tag .hljs-title,
+.lisp .hljs-title,
+.clojure .hljs-built_in,
+.nginx .hljs-title {
+  color: black; }
+
+.hljs-string,
+.hljs-title,
+.hljs-constant,
+.hljs-parent,
+.hljs-tag .hljs-value,
+.hljs-rules .hljs-value,
+.hljs-rules .hljs-value .hljs-number,
+.hljs-preprocessor,
+.hljs-pragma,
+.haml .hljs-symbol,
+.ruby .hljs-symbol,
+.ruby .hljs-symbol .hljs-string,
+.hljs-aggregate,
+.hljs-template_tag,
+.django .hljs-variable,
+.smalltalk .hljs-class,
+.hljs-addition,
+.hljs-flow,
+.hljs-stream,
+.bash .hljs-variable,
+.apache .hljs-tag,
+.apache .hljs-cbracket,
+.tex .hljs-command,
+.tex .hljs-special,
+.erlang_repl .hljs-function_or_atom,
+.asciidoc .hljs-header,
+.markdown .hljs-header,
+.coffeescript .hljs-attribute {
+  color: #800; }
+
+.smartquote,
+.hljs-comment,
+.hljs-annotation,
+.hljs-template_comment,
+.diff .hljs-header,
+.hljs-chunk,
+.asciidoc .hljs-blockquote,
+.markdown .hljs-blockquote {
+  color: #888; }
+
+.hljs-number,
+.hljs-date,
+.hljs-regexp,
+.hljs-literal,
+.hljs-hexcolor,
+.smalltalk .hljs-symbol,
+.smalltalk .hljs-char,
+.go .hljs-constant,
+.hljs-change,
+.lasso .hljs-variable,
+.makefile .hljs-variable,
+.asciidoc .hljs-bullet,
+.markdown .hljs-bullet,
+.asciidoc .hljs-link_url,
+.markdown .hljs-link_url {
+  color: #080; }
+
+.hljs-label,
+.hljs-javadoc,
+.ruby .hljs-string,
+.hljs-decorator,
+.hljs-filter .hljs-argument,
+.hljs-localvars,
+.hljs-array,
+.hljs-attr_selector,
+.hljs-important,
+.hljs-pseudo,
+.hljs-pi,
+.haml .hljs-bullet,
+.hljs-doctype,
+.hljs-deletion,
+.hljs-envvar,
+.hljs-shebang,
+.apache .hljs-sqbracket,
+.nginx .hljs-built_in,
+.tex .hljs-formula,
+.erlang_repl .hljs-reserved,
+.hljs-prompt,
+.asciidoc .hljs-link_label,
+.markdown .hljs-link_label,
+.vhdl .hljs-attribute,
+.clojure .hljs-attribute,
+.asciidoc .hljs-attribute,
+.lasso .hljs-attribute,
+.coffeescript .hljs-property,
+.hljs-phony {
+  color: #88f; }
+
+.hljs-keyword,
+.hljs-id,
+.hljs-title,
+.hljs-built_in,
+.hljs-aggregate,
+.css .hljs-tag,
+.hljs-javadoctag,
+.hljs-phpdoc,
+.hljs-yardoctag,
+.smalltalk .hljs-class,
+.hljs-winutils,
+.bash .hljs-variable,
+.apache .hljs-tag,
+.go .hljs-typename,
+.tex .hljs-command,
+.asciidoc .hljs-strong,
+.markdown .hljs-strong,
+.hljs-request,
+.hljs-status {
+  font-weight: bold; }
+
+.asciidoc .hljs-emphasis,
+.markdown .hljs-emphasis {
+  font-style: italic; }
+
+.nginx .hljs-built_in {
+  font-weight: normal; }
+
+.coffeescript .javascript,
+.javascript .xml,
+.lasso .markup,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: .5; }
+
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+pre {
+  margin-bottom: 32px;
+  margin-bottom: 2rem; }
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: .5em;
+  background: #23241f;
+  margin-bottom: 32px;
+  margin-bottom: 2rem; }
+
+.hljs,
+.hljs-tag,
+.hljs-subst {
+  color: #f8f8f2; }
+
+.hljs-strong,
+.hljs-emphasis {
+  color: #a8a8a2; }
+
+.hljs-bullet,
+.hljs-quote,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-link {
+  color: #ae81ff; }
+
+.hljs-code,
+.hljs-title,
+.hljs-section,
+.hljs-selector-class {
+  color: #a6e22e; }
+
+.hljs-strong {
+  font-weight: bold; }
+
+.hljs-emphasis {
+  font-style: italic; }
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-attr {
+  color: #f92672; }
+
+.hljs-symbol,
+.hljs-attribute {
+  color: #66d9ef; }
+
+.hljs-params,
+.hljs-class .hljs-title {
+  color: #f8f8f2; }
+
+.hljs-string,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-variable {
+  color: #e6db74; }
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-meta {
+  color: #75715e; }
+
+/* ===================================================
+VEAMS SETTINGS
+=================================================== */
+/* ===================================================
+BREAKPOINT SETTINGS
+=================================================== */
+
+/* ===================================================
+CENTERING MIXIN
+=================================================== */
+/* ===================================================
+Clearfix
+=================================================== */
+/*
+Extend
+----------------------- */
+/* ===================================================
+FLOAT MIXIN
+=================================================== */
+/*
+Extend
+----------------------- */
+/* ===================================================
+Hiding Elements
+=================================================== */
+/* ---------------------------------------------------
+ir
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Hidden
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Visually hidden
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Visibility hidden
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Hide text
+--------------------------------------------------- */
+/* ===================================================
+Inline Block Layouts
+=================================================== */
+/* ---------------------------------------------------
+Mixin
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Extend
+--------------------------------------------------- */
+/* ===================================================
+OMEGA RESET
+
+	- used for Bourbon Neat
+=================================================== */
+/* ===================================================
+Pseudo Element
+=================================================== */
+/*
+Extend
+----------------------- */
+/* ===================================================
+Reset Button
+=================================================== */
+/*
+Extend
+----------------------- */
+/* ===================================================
+ARROW EFFECT
+=================================================== */
+/* ---------------------------------------------------
+General styles
+--------------------------------------------------- */
+.docs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /*
+	Sidebar
+	----------------------- */
+  /*
+	Main
+	----------------------- */
+  /*
+	Section
+	----------------------- */
+  /*
+	Modifiers
+	----------------------- */ }
+  .docs .docs__sidebar {
+    display: none;
+    left: -16em;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    background-color: #23241F;
+    color: #FFF;
+    z-index: 1; }
+    .docs .docs__sidebar h3 {
+      margin: 32px 0 16px;
+      margin: 2rem 0 1rem; }
+    .docs .docs__sidebar a {
+      color: #66b5ba;
+      text-decoration: none; }
+      .docs .docs__sidebar a:hover {
+        color: #acd7da; }
+    @media (min-width: 48em) {
+      .docs .docs__sidebar {
+        display: block;
+        position: relative;
+        width: 22%;
+        left: 0; } }
+  .docs .docs__main {
+    width: 100%; }
+    @media (min-width: 48em) {
+      .docs .docs__main {
+        width: 78%; } }
+  .docs .docs__header {
+    padding: 32px;
+    padding: 2rem; }
+  .docs .docs__headline {
+    font-size: 54.4px;
+    font-size: 3.4rem;
+    color: #444;
+    font-weight: 900; }
+    .docs .docs__headline span {
+      font-size: 32px;
+      font-size: 2rem;
+      color: #4ca1a7; }
+  .docs .docs__subline {
+    color: #848484;
+    margin-top: 0;
+    margin-left: 8px;
+    margin-left: .5rem;
+    font-size: 25.6px;
+    font-size: 1.6rem; }
+    .docs .docs__subline span {
+      font-style: italic; }
+  .docs .docs__section {
+    width: 100%;
+    padding: 32px;
+    padding: 2rem;
+    border-bottom: 1px solid rgba(74, 158, 163, .7);
+    border-top: 2px solid #FFF;
+    background-color: whitesmoke; }
+    .docs .docs__section.is-bg-invert {
+      background-color: rgba(74, 158, 163, .3);
+      border-top: 1px solid #FFF;
+      border-bottom: 1px solid #cccccc; }
+      .docs .docs__section.is-bg-invert .docs__section-headline {
+        color: #000; }
+  .docs .docs__section-headline {
+    clear: both;
+    font-size: 38.4px;
+    font-size: 2.4rem;
+    z-index: 1;
+    min-width: 150px;
+    opacity: 1;
+    background-color: transparent;
+    color: #848484;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+    margin-bottom: 4rem; }
+  .docs .docs__section-content {
+    padding: 0 0 32px;
+    padding: 0 0 2rem; }
+    .docs .docs__section-content hr {
+      margin: 48px 0 80px;
+      margin: 3rem 0 5rem;
+      border-width: 1px;
+      background-color: transparent;
+      border-top: 1px solid #aaaaaa;
+      border-bottom: 2px solid #d8d8d8;
+      border-right: none 0;
+      border-left: none 0; }
+    .docs .docs__section-content hr:last-child {
+      margin-bottom: 0;
+      border-bottom: 0;
+      border-top: 0; }
+  .docs .docs__section-content__headline {
+    font-size: 32px;
+    font-size: 2rem;
+    margin: .5em 0; }
+  .docs .docs__section-content__description {
+    font-size: 25.6px;
+    font-size: 1.6rem;
+    margin: .5em 0; }
+  .docs .docs__section-error {
+    font-style: italic;
+    text-align: left;
+    font-size: 28.8px;
+    font-size: 1.8rem;
+    margin: 0; }
+  .docs .docs__section-description {
+    font-size: 28.8px;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 48px;
+    margin-bottom: 3rem;
+    font-style: italic;
+    color: #848484;
+    padding-bottom: 8px;
+    padding-bottom: .5rem; }
+  .docs .docs__section-hl-small {
+    font-size: 32px;
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 16px;
+    margin-bottom: 1rem; }
+  .docs .docs__rte,
+  .docs .is-docs-rte {
+    /*
+		Standard elements for markdown
+		----------------------- */ }
+    .docs .docs__rte h1,
+    .docs .is-docs-rte h1 {
+      display: none; }
+    .docs .docs__rte h2,
+    .docs .is-docs-rte h2 {
+      font-size: 38.4px;
+      font-size: 2.4rem;
+      margin: 32px 0;
+      margin: 2rem 0; }
+    .docs .docs__rte h3,
+    .docs .is-docs-rte h3 {
+      font-size: 32px;
+      font-size: 2rem;
+      margin: 16px 0;
+      margin: 1rem 0; }
+    .docs .docs__rte h4,
+    .docs .is-docs-rte h4 {
+      font-size: 24px;
+      font-size: 1.5rem;
+      font-weight: 900;
+      margin: 16px 0;
+      margin: 1rem 0; }
+    .docs .docs__rte ul,
+    .docs .is-docs-rte ul {
+      margin-top: 16px;
+      margin-top: 1rem;
+      margin-left: 48px;
+      margin-left: 3rem;
+      list-style: square; }
+      .docs .docs__rte ul li,
+      .docs .is-docs-rte ul li {
+        line-height: 1.5; }
+    .docs .docs__rte ol,
+    .docs .is-docs-rte ol {
+      margin-top: 16px;
+      margin-top: 1rem;
+      margin-left: 48px;
+      margin-left: 3rem;
+      list-style-type: decimal; }
+    .docs .docs__rte blockquote,
+    .docs .is-docs-rte blockquote {
+      padding: 8px 16px;
+      padding: .5rem 1rem;
+      margin: 32px 0;
+      margin: 2rem 0;
+      color: #3E4348;
+      background-color: #FFF;
+      border-left: 8px solid #4A9EA3;
+      border-left: .5rem solid #4A9EA3; }
+      .docs .docs__rte blockquote code,
+      .docs .is-docs-rte blockquote code {
+        background-color: #4A9EA3; }
+    .docs .docs__rte code[class="language-bash"],
+    .docs .docs__rte code[class="language-js"],
+    .docs .is-docs-rte code[class="language-bash"],
+    .docs .is-docs-rte code[class="language-js"] {
+      display: block;
+      background: #242420;
+      font-size: 100%;
+      word-wrap: normal;
+      color: #f2ecb5;
+      overflow-x: auto; }
+    .docs .docs__rte pre,
+    .docs .is-docs-rte pre {
+      margin-bottom: 64px;
+      margin-bottom: 4rem;
+      background: #23241f;
+      padding: 12.8px;
+      padding: .8rem;
+      color: #E7DB74; }
+      .docs .docs__rte pre code,
+      .docs .is-docs-rte pre code {
+        max-height: 350px;
+        padding: 14.4px 16px;
+        padding: .9rem 1rem; }
+    .docs .docs__rte pre,
+    .docs .docs__rte code,
+    .docs .is-docs-rte pre,
+    .docs .is-docs-rte code {
+      font-family: 'Courier', Monospaced, monospace; }
+    .docs .docs__rte code,
+    .docs .is-docs-rte code {
+      font-weight: 600; }
+    .docs .docs__rte em,
+    .docs .is-docs-rte em {
+      font-style: italic; }
+    .docs .docs__rte img,
+    .docs .is-docs-rte img {
+      max-width: 100%; }
+    .docs .docs__rte p,
+    .docs .is-docs-rte p {
+      margin-bottom: 16px;
+      margin-bottom: 1rem; }
+    .docs .docs__rte a,
+    .docs .is-docs-rte a {
+      color: #4A9EA3; }
+      .docs .docs__rte a:visited,
+      .docs .is-docs-rte a:visited {
+        color: #4A9EA3; }
+    .docs .docs__rte hr,
+    .docs .is-docs-rte hr {
+      margin: 48px 0;
+      margin: 3rem 0;
+      border-width: 1px;
+      background-color: transparent;
+      border-top: 1px solid #cccccc;
+      border-bottom: 2px solid #FFF;
+      border-right: none 0;
+      border-left: none 0; }
+    .docs .docs__rte table,
+    .docs .is-docs-rte table {
+      width: 100%;
+      overflow: auto;
+      border-spacing: 0;
+      border-collapse: collapse;
+      margin: 8px 0 64px;
+      margin: .5rem 0 4rem;
+      font-size: 100%; }
+    .docs .docs__rte thead,
+    .docs .docs__rte tbody,
+    .docs .is-docs-rte thead,
+    .docs .is-docs-rte tbody {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+    .docs .docs__rte tr,
+    .docs .is-docs-rte tr {
+      background-color: #23241f;
+      border-top: 1px solid #3A3A3A;
+      color: #F8F8F2; }
+      .docs .docs__rte tr:nth-child(2n),
+      .docs .is-docs-rte tr:nth-child(2n) {
+        background-color: rgba(35, 36, 31, .9); }
+      .docs .docs__rte tr th,
+      .docs .docs__rte tr td,
+      .docs .is-docs-rte tr th,
+      .docs .is-docs-rte tr td {
+        padding: 11.2px 16px;
+        padding: .7rem 1rem;
+        border: 1px solid #4E4E4E; }
+      .docs .docs__rte tr th,
+      .docs .is-docs-rte tr th {
+        background-color: #000; }
+    .docs .docs__rte th,
+    .docs .is-docs-rte th {
+      font-weight: 600; }
+    .docs .docs__rte td code,
+    .docs .is-docs-rte td code {
+      color: #E7DB74; }
+  .docs .is-docs-icon {
+    margin-right: 8px;
+    margin-right: .5rem; }
+  .docs .is-demo-headline {
+    margin-bottom: 16px;
+    margin-bottom: 1rem; }
+
+
+/*# sourceMappingURL=docs.bundle.css.map*/

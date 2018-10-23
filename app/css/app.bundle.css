@@ -1,0 +1,521 @@
+/* ===================================================
+Main File For Imports
+=================================================== */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* ===================================================
+FONT BASE SIZE
+=================================================== */
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 16px; }
+
+/* ---------------------------------------------------
+Animations
+--------------------------------------------------- */
+/* ===================================================
+VEAMS SETTINGS
+=================================================== */
+/* ===================================================
+BREAKPOINT SETTINGS
+=================================================== */
+
+/* ===================================================
+CENTERING MIXIN
+=================================================== */
+/* ===================================================
+Clearfix
+=================================================== */
+/*
+Extend
+----------------------- */
+/* ===================================================
+FLOAT MIXIN
+=================================================== */
+/*
+Extend
+----------------------- */
+/* ===================================================
+Hiding Elements
+=================================================== */
+/* ---------------------------------------------------
+ir
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Hidden
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Visually hidden
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Visibility hidden
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Hide text
+--------------------------------------------------- */
+/* ===================================================
+Inline Block Layouts
+=================================================== */
+/* ---------------------------------------------------
+Mixin
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Extend
+--------------------------------------------------- */
+/* ===================================================
+OMEGA RESET
+
+	- used for Bourbon Neat
+=================================================== */
+/* ===================================================
+Pseudo Element
+=================================================== */
+/*
+Extend
+----------------------- */
+/* ===================================================
+Reset Button
+=================================================== */
+/*
+Extend
+----------------------- */
+/* ===================================================
+ARROW EFFECT
+=================================================== */
+/* ===================================================
+Generic Webfont Generation
+=================================================== */
+/* ---------------------------------------------------
+Global Font
+--------------------------------------------------- */
+@font-face {
+  font-family: "iconfont";
+  src: url("../fonts/iconfont.eot?c0742f4574348dc7b87a6450f84cd808?#iefix") format("embedded-opentype"), url("../fonts/iconfont.woff2?c0742f4574348dc7b87a6450f84cd808") format("woff2"), url("../fonts/iconfont.woff?c0742f4574348dc7b87a6450f84cd808") format("woff"); }
+
+/*
+Font Map
+----------------------- */
+/* ---------------------------------------------------
+Font Mixin
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Font Icon Classes
+--------------------------------------------------- */
+.is-font-icon-noun_Search_1279709_000000 {
+  line-height: inherit; }
+  .is-font-icon-noun_Search_1279709_000000:before {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    font-weight: normal !important;
+    vertical-align: top;
+    content: "\F101"; }
+
+@font-face {
+  font-family: 'Agrandir';
+  src: url("../fonts/agrandir/AgrandirVariable.ttf");
+  font-weight: 1 999; }
+
+head {
+  font-family: large; }
+  @media only screen and (min-width: 48em) {
+    head {
+      font-family: large; } }
+  @media only screen and (min-width: 60em) {
+    head {
+      font-family: x-large; } }
+
+/* ===================================================
+Do not manually add anything here.
+This file will be overridden by the selected icon task you have chosen.
+=================================================== */
+/* ===================================================
+BASE
+=================================================== */
+/* ---------------------------------------------------
+Global styles
+--------------------------------------------------- */
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  font: normal 16px/1.2 Agrandir, sans-serif;
+  line-height: 1.4;
+  /* Adjust font size */
+  -webkit-text-size-adjust: 100%;
+  /* Font variant */
+  -webkit-font-feature-settings: none;
+          font-feature-settings: none;
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+img {
+  max-width: 100%; }
+
+#js-logger {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  height: 16.66667%;
+  background-color: rgba(0, 0, 0, .9);
+  padding: 20px;
+  font-size: 14px;
+  overflow-y: auto;
+  z-index: 9999;
+  border-radius: 10px;
+  border: 10px solid red; }
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    text-shadow: none !important; }
+  a,
+  a:visited {
+    text-decoration: underline; }
+  a[href]::after {
+    content: " (" attr(href) ")"; }
+  abbr[title]::after {
+    content: " (" attr(title) ")"; }
+  /*
+	* Don't show links for images, or javascript/internal links
+	*/
+  .ir a::after,
+  a[href^="javascript:"]::after,
+  a[href^="#"]::after {
+    content: ""; }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+  tr,
+  img {
+    page-break-inside: avoid; }
+  img {
+    max-width: 100% !important; }
+  @page {
+    margin: .5cm; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+
+/* ---------------------------------------------------
+Regions
+--------------------------------------------------- */
+/* ===================================================
+Component: Sitemap
+=================================================== */
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-sitemap"] .sitemap__header {
+  padding: 22px 20px;
+  padding: 2.2rem 2rem;
+  background-color: #161613; }
+
+[data-css="c-sitemap"] .sitemap__list {
+  padding: 22px 20px;
+  padding: 2.2rem 2rem; }
+
+/* ---------------------------------------------------
+Context: Default
+--------------------------------------------------- */
+/* ===================================================
+CTA COMPONENT
+=================================================== */
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Context: Default
+--------------------------------------------------- */
+/* ===================================================
+component: search
+=================================================== */
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-search"] .search__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+
+[data-css="c-search"].is-color-grey .search__input {
+  background-color: grey; }
+
+[data-css="c-search"] .search__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-top: 3px solid lightgray;
+  border-top: .3rem solid lightgray; }
+
+[data-css="c-search"] .search__label {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 66px;
+  min-width: 6.6rem;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+[data-css="c-search"] .search__icon {
+  -webkit-transform: scale(1.53);
+          transform: scale(1.53); }
+
+[data-css="c-search"] .search__input {
+  font-size: 30px;
+  font-size: 3rem;
+  line-height: 1.2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 22px 22px 22px 66px;
+  padding: 2.2rem 2.2rem 2.2rem 6.6rem;
+  color: grey;
+  border: none;
+  outline: 3px solid lightgray;
+  outline: .3rem solid lightgray; }
+  [data-css="c-search"] .search__input:focus {
+    outline: 3px solid lightgray;
+    outline: .3rem solid lightgray;
+    background-color: lightgray; }
+    [data-css="c-search"] .search__input:focus::-webkit-input-placeholder {
+      color: white; }
+    [data-css="c-search"] .search__input:focus::-ms-input-placeholder {
+      color: white; }
+    [data-css="c-search"] .search__input:focus::placeholder {
+      color: white; }
+
+[data-css="c-search"] .search__submit {
+  font-size: 30px;
+  font-size: 3rem;
+  line-height: 1.2;
+  position: absolute;
+  min-width: 15%;
+  height: 97%;
+  top: 3px;
+  top: .3rem;
+  padding: 0 10px;
+  padding: 0 1rem;
+  border: none;
+  right: 0;
+  background-color: lightgray;
+  color: black; }
+
+[data-css="c-search"] .search__album-container,
+[data-css="c-search"] .search__book-container,
+[data-css="c-search"] .search__film-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-bottom: 3px solid black;
+  border-bottom: .3rem solid black;
+  border-top: 3px solid black;
+  border-top: .3rem solid black; }
+
+[data-css="c-search"] .search__book-container {
+  border-bottom: 0;
+  border-top: 0; }
+
+[data-css="c-search"] .search__info {
+  padding: 3px 200px 3px 15px;
+  padding: .3rem 20rem .3rem 1.5rem; }
+
+[data-css="c-search"] .search__img-wrapper {
+  width: 100%;
+  max-width: 140px;
+  max-width: 14rem;
+  margin: 3px 0 3px 3px;
+  margin: .3rem 0 .3rem .3rem; }
+
+[data-css="c-search"] .search__title {
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2; }
+
+[data-css="c-search"] .search__row {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  color: white; }
+  [data-css="c-search"] .search__row::after {
+    content: '';
+    width: 30px;
+    width: 3rem;
+    position: relative; }
+
+[data-css="c-search"] .search__row-text {
+  letter-spacing: 2px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  position: absolute; }
+
+[data-css="c-search"] .search__pages,
+[data-css="c-search"] .search__rated,
+[data-css="c-search"] .search__run-time,
+[data-css="c-search"] .search__year {
+  font-size: 10px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+[data-css="c-search"] .search__year {
+  margin-left: 5px;
+  margin-left: .5rem; }
+
+[data-css="c-search"] .search__author,
+[data-css="c-search"] .search__categories,
+[data-css="c-search"] .search__actor,
+[data-css="c-search"] .search__writer,
+[data-css="c-search"] .search__director,
+[data-css="c-search"] .search__genre {
+  font-size: 14px;
+  font-size: 1.4rem; }
+
+[data-css="c-search"] .search__text {
+  font-weight: 500; }
+
+[data-css="c-search"] .search__title-rated-year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+[data-css="c-search"] .search__rated {
+  padding: 3px 4px 0;
+  padding: .3rem .4rem 0;
+  margin-left: 5px;
+  margin-left: .5rem;
+  margin-bottom: 5px;
+  margin-bottom: .5rem;
+  position: relative;
+  display: inline;
+  display: initial;
+  background-color: black;
+  color: white; }
+
+[data-css="c-search"] .search__plot {
+  color: grey; }
+
+/* ---------------------------------------------------
+Context: Default
+--------------------------------------------------- */
+/* ===================================================
+Component: Toggler
+=================================================== */
+/* ---------------------------------------------------
+Global Variables
+--------------------------------------------------- */
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-toggler"] {
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  -webkit-transition: opacity 500ms ease-in-out, height 500ms ease-in-out, visibility 0ms linear 500ms;
+  transition: opacity 500ms ease-in-out, height 500ms ease-in-out, visibility 0ms linear 500ms; }
+  [data-css="c-toggler"].is-open {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+    -webkit-transition: opacity 500ms ease-in-out, height 500ms ease-in-out, visibility 0ms linear;
+    transition: opacity 500ms ease-in-out, height 500ms ease-in-out, visibility 0ms linear; }
+  [data-css="c-toggler"].is-calculating {
+    position: absolute !important;
+    visibility: hidden !important;
+    display: block !important;
+    height: auto !important; }
+
+/* ---------------------------------------------------
+Context: Default
+--------------------------------------------------- */
+
+
+/*# sourceMappingURL=app.bundle.css.map*/

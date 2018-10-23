@@ -1,0 +1,96 @@
+import fs from 'fs';
+import * as pathFs from 'path';
+import helpers from '../../utils/helpers';
+import ApiModel from '../../models/api-model';
+
+class <%= bpJsName %> extends ApiModel {
+
+	constructor(obj) {
+		super(obj);
+		this.modelDir = `${this.mockPath}/<%= bpName %>`;
+	}
+
+	/**
+	 * Get metadata <%= bpName %> file path
+	 * @returns {string}
+	 */
+	get <%= bpName %>File() {
+		return `${this.modelDir}/${this.data.id}.json`;
+	}
+	<% if (props.apiMethods.indexOf('read') !== -1) { %>
+	/**
+	 * Find all <%= bpName %> files
+	 * @returns {Promise}
+	 */
+	async findAll() {
+	let dirs = fs.readdirSync(`${this.modelDir}`);
+	let promises = [];
+
+
+	for(let i = 0; i < dirs.length; i++ ) {
+	let <%= bpName %> = new <%= bpJsName %>();
+	let id = pathFs.basename(dirs[i], '.json');
+
+			promises.push(<%= bpName %>.findById(id));
+		}
+
+		return Promise.all(promises);
+	}
+
+	/**
+	 * Find <%= bpJsName %> by id
+	 * @param id
+	 * @returns {*}
+	 */
+	async findById(id) {
+		this.data.id = id;
+
+		if (!await helpers.fileExists(this.<%= bpName %>File)) {
+			return null
+		}
+
+		this.data = await helpers.readJSON(this.<%= bpName %>File);
+
+		return this;
+	}
+	<% } %><% if (props.apiMethods.indexOf('create') !== -1) { %>
+	/**
+	 * Create <%= bpName %> file
+	 * @param params
+	 * @returns {<%= bpJsName %>}
+	 */
+	async create(params) {
+		super.create(params);
+
+		if(await helpers.fileExists(this.<%= bpName %>File)) {
+			throw new Error('<%= bpJsName %> '+ this.data.id + ' already exists');
+		}
+
+		await helpers.write(this.<%= bpName %>File, JSON.stringify(this.data));
+
+		return this;
+	}
+	<% } %><% if (props.apiMethods.indexOf('update') !== -1) { %>
+	/**
+	 *
+	 * @param data
+	 * @returns {<%= bpJsName %>}
+	 */
+	async save(data) {
+		if(data.id !== this.data.id) {
+			throw new Error(`Can\'t rename <%= bpName %> id ${this.data.id} to ${data.id}!`);
+		}
+
+		this.data = data;
+		await helpers.write(this.<%= bpName %>File, JSON.stringify(this.data));
+
+		return this;
+	}
+	<% } %><% if (props.apiMethods.indexOf('delete') !== -1) { %>
+	remove() {
+		return helpers.remove(this.<%= bpName %>File);
+	}<% } %>
+}
+
+
+export default <%= bpJsName %>;

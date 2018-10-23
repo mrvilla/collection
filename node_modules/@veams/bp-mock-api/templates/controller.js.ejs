@@ -1,0 +1,49 @@
+import {success, notFound, validationError} from '../../services/response/';
+import <%= bpJsName %> from './model';
+<% if (props.apiMethods.indexOf('read') !== -1) { %>
+export const index = ({params}, res, next) => {
+	let <%= bpName %> = new <%= bpJsName %>();
+	<%= bpName %>.findAll(params)
+		.then((<%= bpName %>s) => <%= bpName %>s.map((data) => data.view()))
+		.then(success(res))
+		.catch(next)
+};
+
+export const show = ({params}, res, next) => {
+	let <%= bpName %> = new <%= bpJsName %>();
+
+	<%= bpName %>.findById(params.id)
+		.then(notFound(res))
+		.then((data) => data ? data.view() : null)
+		.then(success(res))
+		.catch(next)
+};
+<% } %><% if (props.apiMethods.indexOf('create') !== -1) { %>
+export const create = (req, res) => {
+	let <%= bpName %> = new <%= bpJsName %>();
+	<%= bpName %>.create(req.body)
+		.then((data) => data.view(true))
+		.then(success(res, 201))
+		.catch(validationError(res))
+};
+<% } %><% if (props.apiMethods.indexOf('update') !== -1) { %>
+export const update = ({params, body}, res, next) => {
+	let <%= bpName %> = new <%= bpJsName %>();
+	<%= bpName %>.findById(params.id)
+		.then(notFound(res))
+		.then((data) => data ? data.save(body) : null)
+		.then((data) => data ? data.view(true) : null)
+		.then(success(res))
+		.catch(validationError(res))
+		.catch(next)
+};
+<% } %><% if (props.apiMethods.indexOf('delete') !== -1) { %>
+export const destroy = ({params}, res, next) => {
+	let <%= bpName %> = new <%= bpJsName %>();
+	<%= bpName %>.findById(params.id)
+		.then(notFound(res))
+		.then((data) => data ? data.remove() : null)
+		.then(success(res, 204))
+		.catch(next)
+};
+<% } %>

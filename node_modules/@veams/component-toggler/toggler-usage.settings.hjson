@@ -1,0 +1,15 @@
+{
+	"type": "component",
+	"contextData": "toggler",
+	"displayName": "toggler",
+	"layout": "lyt-docs",
+	"subTemplates": [
+		"toggler.hbs"
+	],
+	"scssFiles": [
+		"_toggler.scss"
+	],
+	"jsFiles": [
+		"toggler.js"
+	]
+}
