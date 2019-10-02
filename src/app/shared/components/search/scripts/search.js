@@ -31,11 +31,11 @@ class Search extends Component {
 	// Local Handlers
 	get events() {
 		return {
-			submit: 'handleClick'
+			submit: 'submitHandler'
 		};
 	}
 
-	handleClick = (evt, target) => {
+	submitHandler = (evt, target) => {
 		evt.preventDefault();
 		//console.log('target: ', target);
 		//console.log('evt: ', evt);
