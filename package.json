@@ -42,7 +42,8 @@
 		"@veams/query": "^2.2.24",
 		"handlebars": "^4.0.10",
 		"lazysizes": "^4.0.4",
-		"prettier": "^1.14.3"
+		"prettier": "^1.14.3",
+		"uglifyjs-webpack-plugin": "^2.2.0"
 	},
 	"devDependencies": {
 		"@veams/bp-mock-api": "^1.0.3",

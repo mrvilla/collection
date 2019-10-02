@@ -48,6 +48,10 @@ class Search extends Component {
 
 	handleMovieData(movieData, bookData, albumData, comicData) {
 		console.log('movieData: ', movieData);
+		console.log('bookData: ', bookData);
+		console.log('albumData: ', albumData);
+		console.log('comicData: ', comicData);
+
 		this.renderSearchFilmTemplate(
 			movieData.Poster,
 			movieData.Title,
@@ -60,7 +64,7 @@ class Search extends Component {
 			movieData.Actors,
 			movieData.Year
 		);
-		console.log('bookData: ', bookData);
+
 		this.renderSearchBookTemplate(
 			bookData.items[0].volumeInfo.title,
 			bookData.items[0].volumeInfo.imageLinks.thumbnail,
@@ -70,13 +74,12 @@ class Search extends Component {
 			bookData.items[0].volumeInfo.pageCount,
 			bookData.items[0].volumeInfo.publishedDate
 		);
-		console.log('albumData: ', albumData);
+
 		this.renderSearchAlbumTemplate(
 			albumData.results[1].title,
 			albumData.results[1].cover_image
 			//albumData.results[0].artist,
 		);
-		console.log('comicData: ', comicData);
 	}
 
 	renderSearchFilmTemplate(
