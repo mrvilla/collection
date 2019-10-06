@@ -37,29 +37,21 @@ export const renderFilmTemplate = ({
          `;
 };
 
-export const renderBookTemplate = ({
-	title,
-	imageLinks: { thumbnail },
-	authors,
-	categories,
-	ratingsCount,
-	pageCount,
-	publishedDate
-}) => {
+export const renderBookTemplate = book => {
 	return `
 			<div class="search__book-container">
 				 <div class="search__row"><div class="search__row-text">book</div></div>
-				 <div class="search__img-wrapper"><img src="${thumbnail}" alt=""></div>
+				 <div class="search__img-wrapper"><img src="${book.imageLinks.thumbnail}" alt=""></div>
 				 <div class="search__info">
 					<div class="search__title-rated-year">
-						<div class="search__title">${title}</div>
-						<div class="search__rated">${ratingsCount}</div>
-						<div class="search__year">${publishedDate}</div>
+						<div class="search__title">${book.title}</div>
+						<div class="search__rated">${book.ratingsCount}</div>
+						<div class="search__year">${book.publishedDate}</div>
 					</div>
-					<div class="search__categories">${categories}</div>
-					<div class="search__pages">${pageCount} pages</div>
+					<div class="search__categories">${book.categories}</div>
+					<div class="search__pages">${book.pageCount} pages</div>
 					<div class="search__author">
-						<span class="search__text">Author:</span> ${authors}
+						<span class="search__text">Author:</span> ${book.authors}
 					</div>
 				 </div>
 			</div>
