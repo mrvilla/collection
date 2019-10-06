@@ -18,3 +18,5 @@ node_modules
 .idea
 /app
 yarn.lock
+!/src/app/shared/data/config.js
+!/src/app/shared/data/externtalData.js
