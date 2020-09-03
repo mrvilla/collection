@@ -41,7 +41,7 @@
 		"@veams/plugin-vent": "^1.0.0",
 		"@veams/query": "^2.2.24",
 		"handlebars": "^4.0.10",
-		"lazysizes": "^4.0.4",
+		"lazysizes": "^5.2.2",
 		"prettier": "^1.14.3",
 		"uglifyjs-webpack-plugin": "^2.2.0"
 	},
